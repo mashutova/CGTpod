@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Endpoints News</title>
+    <link>https://endpoints.news</link>
+    <description>Biopharma news</description>
+    <item>
+      <title>Novartis CAR-T therapy Kymriah shows durable responses in new 5-year data</title>
+      <link>https://endpoints.news/2026/03/novartis-car-t-kymriah-5year</link>
+      <description>&lt;p&gt;Novartis released long-term follow-up data on Kymriah showing durable complete responses in patients with diffuse large B-cell lymphoma. The CAR-T therapy continues to show sustained remissions at the 5-year mark.&lt;/p&gt;</description>
+      <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eli Lilly acquires obesity drug maker for $2.5B</title>
+      <link>https://endpoints.news/2026/03/lilly-obesity-acquisition</link>
+      <description>Eli Lilly announced a $2.5 billion acquisition of a company developing next-generation GLP-1 receptor agonists for obesity treatment.</description>
+      <pubDate>Mon, 09 Mar 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CRISPR Therapeutics advances exa-cel manufacturing with new GMP facility</title>
+      <link>https://endpoints.news/2026/03/crispr-exa-cel-gmp</link>
+      <description>CRISPR Therapeutics announced a new GMP manufacturing facility for exa-cel (exagamglogene autotemcel), its CRISPR-based gene therapy for sickle cell disease and beta-thalassemia.</description>
+      <pubDate>Sun, 08 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>bluebird bio gene therapy lovo-cel receives positive CHMP opinion</title>
+      <link>https://endpoints.news/2026/03/bluebird-lovo-cel-chmp</link>
+      <description>The EMA's CHMP has adopted a positive opinion recommending marketing authorization for bluebird bio's lovo-cel gene therapy for sickle cell disease in the EU.</description>
+      <pubDate>Sun, 08 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

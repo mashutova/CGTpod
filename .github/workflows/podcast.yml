@@ -1,0 +1,76 @@
+name: CGT Podcast Pipeline
+
+on:
+  schedule:
+    # Daily Mon-Fri at 07:00 UTC
+    - cron: '0 7 * * 1-5'
+    # Weekly Friday digest at 09:00 UTC (after daily)
+    - cron: '0 9 * * 5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Pipeline mode'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - weekly
+
+concurrency:
+  group: cgtpod-pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  AUDIO_BACKEND: ${{ vars.AUDIO_BACKEND || 'podcastfy' }}
+  TTS_BACKEND: ${{ vars.TTS_BACKEND || 'edge' }}
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  GITHUB_REPOSITORY: ${{ github.repository }}
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Determine pipeline mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> $GITHUB_OUTPUT
+          elif [ "$(date +%u)" = "5" ] && [ "$(date +%H)" -ge 9 ]; then
+            echo "mode=weekly" >> $GITHUB_OUTPUT
+          else
+            echo "mode=daily" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run pipeline
+        run: python -m cgtpod.pipeline --mode ${{ steps.mode.outputs.mode }}
+
+      - name: Commit state files
+        run: |
+          git config user.name "CGTPod Bot"
+          git config user.email "cgtpod-bot@users.noreply.github.com"
+          git add data/ docs/
+          git diff --cached --quiet || git commit -m "Update pipeline state (${{ steps.mode.outputs.mode }}) [skip ci]"
+          git push

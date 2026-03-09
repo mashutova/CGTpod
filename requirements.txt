@@ -1,0 +1,12 @@
+# RSS Feed Parsing
+feedparser>=6.0,<7.0
+
+# Anthropic Claude API
+anthropic>=0.42,<1.0
+
+# Audio Generation
+podcastfy>=0.2.0
+edge-tts>=6.1.0
+
+# Utilities
+python-dateutil>=2.8,<3.0

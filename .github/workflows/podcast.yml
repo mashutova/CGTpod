@@ -30,6 +30,7 @@ env:
   TTS_BACKEND: ${{ vars.TTS_BACKEND || 'edge' }}
   OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
   GITHUB_REPOSITORY: ${{ github.repository }}
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   run-pipeline:

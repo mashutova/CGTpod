@@ -79,7 +79,7 @@ def _parse_entry(entry: feedparser.FeedParserDict, source_name: str) -> Article:
     if not url:
         raise ValueError("Entry has no link")
 
-    title = unescape(entry.get("title", "Untitled"))
+    title = _strip_html(unescape(entry.get("title", "Untitled")))
 
     # Extract summary text, stripping HTML
     raw_summary = entry.get("summary", "") or entry.get("description", "")

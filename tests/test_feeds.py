@@ -54,6 +54,19 @@ def test_parse_entry_html_entities():
     assert article.summary == "CAR-T & gene therapy"
 
 
+def test_parse_entry_html_tags_in_title():
+    """HTML tags in titles (e.g. Fierce Biotech) are stripped."""
+    entry = feedparser.FeedParserDict({
+        "title": '<a href="https://www.fiercebiotech.com/biotech/ultragenyx">Ultragenyx gene therapy</a>',
+        "link": "https://example.com/test",
+        "summary": "A summary",
+        "published_parsed": (2026, 3, 9, 10, 0, 0, 0, 68, 0),
+    })
+    article = _parse_entry(entry, "test_source")
+    assert article.title == "Ultragenyx gene therapy"
+    assert "<" not in article.title
+
+
 def test_fetch_single_feed_from_fixture(endpoints_rss_xml):
     """Test parsing against saved RSS fixture."""
     parsed = feedparser.parse(endpoints_rss_xml)

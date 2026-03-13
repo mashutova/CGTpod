@@ -2,6 +2,7 @@
 
 import json
 import logging
+import re
 import subprocess
 from datetime import datetime, timezone
 from email.utils import format_datetime
@@ -62,14 +63,20 @@ def _upload_to_release(episode: Episode, config: Config) -> str:
 
     logger.info("Creating GitHub release %s...", tag)
 
+    # Strip any residual HTML from title and description
+    clean_title = re.sub(r"<[^>]+>", " ", episode.title)
+    clean_title = re.sub(r"\s+", " ", clean_title).strip()
+    clean_notes = re.sub(r"<[^>]+>", " ", episode.description[:500])
+    clean_notes = re.sub(r"\s+", " ", clean_notes).strip()
+
     try:
         # Create release and upload asset using gh CLI
         result = subprocess.run(
             [
                 "gh", "release", "create", tag,
                 str(audio_path),
-                "--title", episode.title,
-                "--notes", episode.description[:500],
+                "--title", clean_title,
+                "--notes", clean_notes,
                 "--repo", config.github_repo,
             ],
             capture_output=True,

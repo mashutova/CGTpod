@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<rss xmlns:ns0="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CGT News Podcast</title>
+    <description>Your daily automated digest of cell and gene therapy news, covering CAR-T, gene editing, CRISPR, viral vectors, and more.</description>
+    <language>en</language>
+    <link>https://mashutova.github.io/CGTpod</link>
+    <ns0:author>CGTPod Bot</ns0:author>
+    <ns0:explicit>false</ns0:explicit>
+    <ns0:category text="Science"/>
+    <item>
+      <title>CGT Daily News - March 13, 2026</title>
+      <description>Today's CGT news highlights:
+- A simpler form of DNA may be key to non-viral gene therapy, study suggests
+- Ultragenyx gene therapy hits co-primary endpoint in phase 3 rare disease study, teeing up potential win
+- Regenxbio posts clean safety profile for DMD gene therapy as pivotal data loom
+- Study suggests long non-coding RNA has potential as new class of genetic medicine
+- How a new tool for large-scale gene editing could power novel genetic medicines
+- China is going after the world's most expensive drugs: Endpoints Signal</description>
+      <guid isPermaLink="false">2026-03-13-daily</guid>
+      <pubDate>Fri, 13 Mar 2026 14:04:21 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-13-daily/2026-03-13-daily.mp3" length="3450573" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

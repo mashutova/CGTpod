@@ -99,46 +99,39 @@ def _generate_podcastfy(episode: Episode, output_dir: Path, config: Config) -> P
     try:
         from podcastfy.client import generate_podcast
     except ImportError:
-        logger.error("podcastfy not installed. Run: pip install podcastfy")
+        logger.error("podcastfy not installed. Run: pip install podcastfy playwright")
         raise
 
     content = _prepare_content_text(episode)
     output_file = output_dir / f"{episode.episode_id}.mp3"
 
-    # Write content to a temp file for podcastfy
-    content_file = output_dir / f"{episode.episode_id}_content.txt"
-    content_file.write_text(content)
-
     tts_model = "edge" if config.tts_backend == "edge" else "openai"
 
     logger.info("Generating podcast with Podcastfy (TTS: %s)...", tts_model)
 
-    try:
-        result = generate_podcast(
-            urls=[str(content_file)],
-            tts_model=tts_model,
-            conversation_config={
-                "podcast_name": "CGT News Podcast",
-                "podcast_tagline": "Your daily dose of cell and gene therapy news",
-                "creativity": 0.7,
-                "roles_person1": "Host",
-                "roles_person2": "Expert analyst",
-                "dialogue_style": "informative and conversational",
-                "engagement_techniques": "Ask follow-up questions, provide context",
-                "output_language": "English",
-            },
-        )
+    result = generate_podcast(
+        text=content,
+        tts_model=tts_model,
+        llm_model_name="claude-sonnet-4-6",
+        api_key_label="ANTHROPIC_API_KEY",
+        conversation_config={
+            "podcast_name": "CGT News Podcast",
+            "podcast_tagline": "Your daily dose of cell and gene therapy news",
+            "creativity": 0.7,
+            "roles_person1": "Host",
+            "roles_person2": "Expert analyst",
+            "dialogue_style": "informative and conversational",
+            "engagement_techniques": "Ask follow-up questions, provide context",
+            "output_language": "English",
+        },
+    )
 
-        # Podcastfy returns the path to the generated audio
-        if result and Path(result).exists():
-            # Move to our output location
-            Path(result).rename(output_file)
-        else:
-            raise RuntimeError(f"Podcastfy did not produce output: {result}")
-
-    finally:
-        # Clean up content file
-        content_file.unlink(missing_ok=True)
+    # Podcastfy returns the path to the generated audio
+    if result and Path(result).exists():
+        import shutil
+        shutil.move(str(result), str(output_file))
+    else:
+        raise RuntimeError(f"Podcastfy did not produce output: {result}")
 
     return output_file
 

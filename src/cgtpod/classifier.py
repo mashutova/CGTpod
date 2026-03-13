@@ -37,10 +37,13 @@ Respond with a JSON array. For each article, output:
 """
 
 
+BATCH_SIZE = 20  # Max articles per API call to avoid truncated responses
+
+
 def classify_articles(articles: list[Article], config: Config) -> list[Article]:
     """Classify a batch of articles for CGT relevance using Claude.
 
-    Sends all articles in a single API call for efficiency.
+    Splits into batches of BATCH_SIZE to avoid exceeding token limits.
     Returns articles with classification fields populated.
     """
     if not articles:
@@ -52,26 +55,44 @@ def classify_articles(articles: list[Article], config: Config) -> list[Article]:
 
     client = anthropic.Anthropic(api_key=config.anthropic_api_key)
 
-    # Build user prompt with article data
-    article_data = []
-    for a in articles:
-        article_data.append({
+    # Process in batches
+    for i in range(0, len(articles), BATCH_SIZE):
+        batch = articles[i : i + BATCH_SIZE]
+        _classify_batch(batch, client, config)
+
+    relevant_count = sum(1 for a in articles if a.is_cgt_relevant)
+    logger.info(
+        "Classified %d articles: %d CGT-relevant, %d not relevant",
+        len(articles), relevant_count, len(articles) - relevant_count,
+    )
+    return articles
+
+
+def _classify_batch(
+    articles: list[Article], client: anthropic.Anthropic, config: Config
+) -> None:
+    """Classify a single batch of articles via one Claude API call."""
+    article_data = [
+        {
             "id": a.id,
             "title": a.title,
-            "summary": a.summary[:500],  # First 500 chars to save tokens
+            "summary": a.summary[:300],
             "source": a.source,
-        })
+        }
+        for a in articles
+    ]
 
     user_prompt = (
         "Classify the following articles for CGT relevance. "
-        "Respond with ONLY a JSON array, no other text.\n\n"
+        "Respond with ONLY a JSON array, no other text. "
+        "Keep each reason under 10 words.\n\n"
         f"{json.dumps(article_data, indent=2)}"
     )
 
     try:
         response = client.messages.create(
             model=config.claude_model,
-            max_tokens=1024,
+            max_tokens=4096,
             temperature=0.0,
             system=SYSTEM_PROMPT,
             messages=[{"role": "user", "content": user_prompt}],
@@ -89,18 +110,12 @@ def classify_articles(articles: list[Article], config: Config) -> list[Article]:
                 article.cgt_confidence = c.get("confidence", 0.0)
                 article.cgt_reason = c.get("reason", "")
 
-        relevant_count = sum(1 for a in articles if a.is_cgt_relevant)
-        logger.info(
-            "Classified %d articles: %d CGT-relevant, %d not relevant",
-            len(articles), relevant_count, len(articles) - relevant_count,
-        )
+        logger.info("Batch classified %d articles", len(articles))
 
     except anthropic.APIError as e:
         logger.error("Claude API error during classification: %s", e)
     except (json.JSONDecodeError, KeyError) as e:
         logger.error("Failed to parse classification response: %s", e)
-
-    return articles
 
 
 def _parse_response(text: str) -> list[dict]:

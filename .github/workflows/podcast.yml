@@ -65,6 +65,8 @@ jobs:
           fi
 
       - name: Run pipeline
+        env:
+          PYTHONPATH: src
         run: python -m cgtpod.pipeline --mode ${{ steps.mode.outputs.mode }}
 
       - name: Commit state files

@@ -9,6 +9,16 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - March 17, 2026</title>
+      <description>Today's CGT news highlights:
+- China startup CirCode gets clearance for trial of circular RNA therapy
+- Astellas walks away from $1.6B biobucks T-cell engager pact with CytomX after 6 years
+- Ultragenyx’s gene therapy hits key endpoint in Phase 3 trial for blood ammonia disease</description>
+      <guid isPermaLink="false">2026-03-17-daily</guid>
+      <pubDate>Tue, 17 Mar 2026 07:58:36 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-17-daily/2026-03-17-daily.mp3" length="3906189" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Daily News - March 13, 2026</title>
       <description>Today's CGT news highlights:
 - A simpler form of DNA may be key to non-viral gene therapy, study suggests

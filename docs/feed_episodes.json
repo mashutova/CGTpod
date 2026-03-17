@@ -7,5 +7,14 @@
     "file_size": 3450573,
     "duration_seconds": 0,
     "pub_date": "2026-03-13T14:04:21.984551+00:00"
+  },
+  {
+    "episode_id": "2026-03-17-daily",
+    "title": "CGT Daily News - March 17, 2026",
+    "description": "Today's CGT news highlights:\n- China startup CirCode gets clearance for trial of circular RNA therapy\n- Astellas walks away from $1.6B biobucks T-cell engager pact with CytomX after 6 years\n- Ultragenyx\u2019s gene therapy hits key endpoint in Phase 3 trial for blood ammonia disease",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-17-daily/2026-03-17-daily.mp3",
+    "file_size": 3906189,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-17T07:58:36.528600+00:00"
   }
 ]

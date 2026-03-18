@@ -9,6 +9,16 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - March 18, 2026</title>
+      <description>Today's CGT news highlights:
+- China mRNA therapy startup Innorna to test gout treatment in US
+- Sana sees 14-month insulin production for transplanted islet therapy in single Type 1 diabetes patient
+- Inovio trims team as trouble brews at FDA for rare disease candidate</description>
+      <guid isPermaLink="false">2026-03-18-daily</guid>
+      <pubDate>Wed, 18 Mar 2026 07:57:00 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-18-daily/2026-03-18-daily.mp3" length="3176109" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Daily News - March 17, 2026</title>
       <description>Today's CGT news highlights:
 - China startup CirCode gets clearance for trial of circular RNA therapy

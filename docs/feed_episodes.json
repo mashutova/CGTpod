@@ -25,5 +25,14 @@
     "file_size": 3176109,
     "duration_seconds": 0,
     "pub_date": "2026-03-18T07:57:00.855271+00:00"
+  },
+  {
+    "episode_id": "2026-03-19-daily",
+    "title": "CGT Daily News - March 19, 2026",
+    "description": "Today's CGT news highlights:\n- FDA opens door to RMAT designations for therapies on clinical hold\n- Beyond seizures: With experimental drug, Stoke aims to restore developmental loss in Dravet syndrome\n- Ionis delays prion disease readout; Arvinas' Parkinson's biomarker data\n- Aspen's personalized Parkinson's therapy shows early promise\n- Aspen's 1-year data for Parkinson's cell therapy plant seeds for phase 3 trial",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-19-daily/2026-03-19-daily.mp3",
+    "file_size": 2940237,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-19T07:51:21.301183+00:00"
   }
 ]

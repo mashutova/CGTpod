@@ -9,6 +9,18 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - March 19, 2026</title>
+      <description>Today's CGT news highlights:
+- FDA opens door to RMAT designations for therapies on clinical hold
+- Beyond seizures: With experimental drug, Stoke aims to restore developmental loss in Dravet syndrome
+- Ionis delays prion disease readout; Arvinas' Parkinson's biomarker data
+- Aspen's personalized Parkinson's therapy shows early promise
+- Aspen's 1-year data for Parkinson's cell therapy plant seeds for phase 3 trial</description>
+      <guid isPermaLink="false">2026-03-19-daily</guid>
+      <pubDate>Thu, 19 Mar 2026 07:51:21 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-19-daily/2026-03-19-daily.mp3" length="2940237" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Daily News - March 18, 2026</title>
       <description>Today's CGT news highlights:
 - China mRNA therapy startup Innorna to test gout treatment in US

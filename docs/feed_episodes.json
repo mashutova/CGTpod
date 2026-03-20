@@ -43,5 +43,14 @@
     "file_size": 3245229,
     "duration_seconds": 0,
     "pub_date": "2026-03-20T07:50:41.885284+00:00"
+  },
+  {
+    "episode_id": "2026-W12-weekly",
+    "title": "CGT Weekly Digest - Week 12, 2026",
+    "description": "Today's CGT news highlights:\n- Briggs Morrison's Crossbow unveils $77M Series B for T cell engagers\n- Shanghai biotech Excalipoint gains $68.7M for T cell engagers\n- Crossbow hits $77M series B round to bankroll quiver of T-Bolts",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-W12-weekly/2026-W12-weekly.mp3",
+    "file_size": 3358029,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-20T09:33:32.438027+00:00"
   }
 ]

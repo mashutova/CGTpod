@@ -34,5 +34,14 @@
     "file_size": 2940237,
     "duration_seconds": 0,
     "pub_date": "2026-03-19T07:51:21.301183+00:00"
+  },
+  {
+    "episode_id": "2026-03-20-daily",
+    "title": "CGT Daily News - March 20, 2026",
+    "description": "Today's CGT news highlights:\n- CSL says its hemophilia B gene therapy is out of stock\n- AstraZeneca deepens UK-China ties with cell therapy R&D hub, manufacturing plans\n- AstraZeneca to build cell therapy manufacturing hub, R&D center in Shanghai",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-20-daily/2026-03-20-daily.mp3",
+    "file_size": 3245229,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-20T07:50:41.885284+00:00"
   }
 ]

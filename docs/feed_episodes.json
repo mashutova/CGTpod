@@ -52,5 +52,14 @@
     "file_size": 3358029,
     "duration_seconds": 0,
     "pub_date": "2026-03-20T09:33:32.438027+00:00"
+  },
+  {
+    "episode_id": "2026-03-25-daily",
+    "title": "CGT Daily News - March 25, 2026",
+    "description": "Today's CGT news highlights:\n- Ocugen heads to Phase 3 with gene therapy for geographic atrophy\n- Q&A: Controversial embryo editing entrepreneur Cathy Tie on her new startup\n- Ocugen eye disease gene therapy hits ph. 2 targets but underwhelms investors\n- Former Acorda CEO Ron Cohen emerges at Parkinson\u2019s cell therapy biotech Oryon\n- Sanofi extends $180M to California T cell engager startup Kali\n- Sanofi returns to T-cell engager territory with $1.2B pact for phase 1-stage trispecific\n- Oryon shines out of stealth with $21M to fight Parkinson's disease",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-25-daily/2026-03-25-daily.mp3",
+    "file_size": 3422637,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-25T07:57:12.228197+00:00"
   }
 ]

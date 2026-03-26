@@ -61,5 +61,14 @@
     "file_size": 3422637,
     "duration_seconds": 0,
     "pub_date": "2026-03-25T07:57:12.228197+00:00"
+  },
+  {
+    "episode_id": "2026-03-26-daily",
+    "title": "CGT Daily News - March 26, 2026",
+    "description": "Today's CGT news highlights:\n- After tumultuous year, Sarepta plots rebound with early data on RNA therapies\n- Beam looks to accelerated approval for AATD base editing after promising update\n- Sarepta's big bet on Arrowhead's siRNA assets yields early data",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-26-daily/2026-03-26-daily.mp3",
+    "file_size": 3768621,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-26T08:07:00.588983+00:00"
   }
 ]

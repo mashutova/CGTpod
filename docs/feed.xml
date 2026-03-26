@@ -9,6 +9,16 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - March 26, 2026</title>
+      <description>Today's CGT news highlights:
+- After tumultuous year, Sarepta plots rebound with early data on RNA therapies
+- Beam looks to accelerated approval for AATD base editing after promising update
+- Sarepta's big bet on Arrowhead's siRNA assets yields early data</description>
+      <guid isPermaLink="false">2026-03-26-daily</guid>
+      <pubDate>Thu, 26 Mar 2026 08:07:00 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-26-daily/2026-03-26-daily.mp3" length="3768621" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Daily News - March 25, 2026</title>
       <description>Today's CGT news highlights:
 - Ocugen heads to Phase 3 with gene therapy for geographic atrophy

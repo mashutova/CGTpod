@@ -9,6 +9,16 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - March 30, 2026</title>
+      <description>Today's CGT news highlights:
+- FDA approves Rocket's gene therapy for ultra-rare immune disease
+- AstraZeneca’s in vivo CAR-T led to early responses, but one death in China trial
+- AstraZeneca’s in vivo CAR-T bet eradicates cancer in 3 of 5 patients, but death mars dataset</description>
+      <guid isPermaLink="false">2026-03-30-daily</guid>
+      <pubDate>Mon, 30 Mar 2026 08:25:50 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-30-daily/2026-03-30-daily.mp3" length="2941773" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Weekly Digest - Week 13, 2026</title>
       <description>Today's CGT news highlights:
 - Innate ends work on NK cell engager in phase 1/2 trial as part of ongoing pipeline refocus</description>

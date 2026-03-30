@@ -79,5 +79,14 @@
     "file_size": 2796429,
     "duration_seconds": 0,
     "pub_date": "2026-03-27T09:46:32.579072+00:00"
+  },
+  {
+    "episode_id": "2026-03-30-daily",
+    "title": "CGT Daily News - March 30, 2026",
+    "description": "Today's CGT news highlights:\n- FDA approves Rocket's gene therapy for ultra-rare immune disease\n- AstraZeneca\u2019s in vivo CAR-T led to early responses, but one death in China trial\n- AstraZeneca\u2019s in vivo CAR-T bet eradicates cancer in 3 of 5 patients, but death mars dataset",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-03-30-daily/2026-03-30-daily.mp3",
+    "file_size": 2941773,
+    "duration_seconds": 0,
+    "pub_date": "2026-03-30T08:25:50.303225+00:00"
   }
 ]

@@ -97,5 +97,14 @@
     "file_size": 3804333,
     "duration_seconds": 0,
     "pub_date": "2026-04-01T08:20:26.676210+00:00"
+  },
+  {
+    "episode_id": "2026-04-02-daily",
+    "title": "CGT Daily News - April 02, 2026",
+    "description": "Today's CGT news highlights:\n- Making custom CRISPR therapies could be harder than initially thought\n- FDA delays decision on Orca Bio cell therapy after filing more manufacturing data\n- FDA extends review of Orca Bio\u2019s novel cell therapy for blood cancers",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-02-daily/2026-04-02-daily.mp3",
+    "file_size": 3664653,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-02T08:10:33.309031+00:00"
   }
 ]

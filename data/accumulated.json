@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "2a931120f567e12b",
+    "title": "Aspect Biosystems gets $79M from Canadian government for diabetes cell therapy",
+    "url": "https://endpoints.news/aspect-biosystems-gets-79m-from-canadian-government-for-diabetes-cell-therapy/",
+    "summary": "An ambitious Vancouver startup is trying to ensure the next big diabetes breakthrough retains its ties to Canada, unlike the insulin developers of a century ago. That startup, Aspect Biosystems, has received $79 million from ...",
+    "source": "endpoints_news",
+    "published_date": "2026-04-02T18:32:29+00:00",
+    "fetched_date": "2026-04-03T08:03:02.339026",
+    "is_cgt_relevant": true,
+    "cgt_reason": "Cell therapy for diabetes, CGT-relevant.",
+    "cgt_confidence": 0.85
+  }
+]

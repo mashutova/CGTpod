@@ -106,5 +106,14 @@
     "file_size": 3664653,
     "duration_seconds": 0,
     "pub_date": "2026-04-02T08:10:33.309031+00:00"
+  },
+  {
+    "episode_id": "2026-W14-weekly",
+    "title": "CGT Weekly Digest - Week 14, 2026",
+    "description": "Today's CGT news highlights:\n- Aspect Biosystems gets $79M from Canadian government for diabetes cell therapy",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-W14-weekly/2026-W14-weekly.mp3",
+    "file_size": 3075021,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-03T09:45:54.057232+00:00"
   }
 ]

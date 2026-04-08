@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "51fee974fa2d96d7",
+    "title": "Biogen links up with Alloy platform to boost ASO drug development",
+    "url": "https://www.fiercebiotech.com/biotech/biogen-links-alloy-platform-boost-aso-drug-development",
+    "summary": "The agreement allows Biogen to apply the platform to advance antisense therapeutics against multiple undisclosed targets. Alloy will receive an upfront payment and is eligible for milestone payments and tiered royalties on any resulting products.",
+    "source": "fierce_biotech",
+    "published_date": "2026-04-06T14:58:00+00:00",
+    "fetched_date": "2026-04-08T08:14:07.973333",
+    "is_cgt_relevant": true,
+    "cgt_reason": "ASO (antisense oligonucleotide) therapeutics development partnership",
+    "cgt_confidence": 0.85
+  },
+  {
+    "id": "dafd9858c6876e0d",
+    "title": "Anthropic pays $400M for biotech; Praxis epilepsy drug hits in Phase 1/2 trial",
+    "url": "https://endpoints.news/anthropic-pays-400m-for-biotech-praxis-epilepsy-drug-hits-in-phase-1-2-trial/",
+    "summary": "Plus: Debt financing deals for Apnimed and Opus Genetics Anthropic buys a stealth biotech: The San Francisco artificial intelligence giant is buying Coefficient Bio, building out its plans to bring AI into life sciences. Anthropic ...",
+    "source": "endpoints_news",
+    "published_date": "2026-04-06T14:37:53+00:00",
+    "fetched_date": "2026-04-08T08:14:07.747511",
+    "is_cgt_relevant": true,
+    "cgt_reason": "Opus Genetics mentioned, a gene therapy company",
+    "cgt_confidence": 0.6
+  }
+]

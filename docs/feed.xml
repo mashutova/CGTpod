@@ -9,6 +9,16 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - April 09, 2026</title>
+      <description>Today's CGT news highlights:
+- David Sinclair startup Life Biosciences raises $80M for clinical test of anti-aging gene therapy
+- Astellas unearths Dyno muscle disorder AAV capsid with $15M option agreement
+- Biogen links up with Alloy platform to boost ASO drug development</description>
+      <guid isPermaLink="false">2026-04-09-daily</guid>
+      <pubDate>Thu, 09 Apr 2026 08:24:53 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-09-daily/2026-04-09-daily.mp3" length="3392973" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Weekly Digest - Week 14, 2026</title>
       <description>Today's CGT news highlights:
 - Aspect Biosystems gets $79M from Canadian government for diabetes cell therapy</description>

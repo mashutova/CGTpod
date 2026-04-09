@@ -115,5 +115,14 @@
     "file_size": 3075021,
     "duration_seconds": 0,
     "pub_date": "2026-04-03T09:45:54.057232+00:00"
+  },
+  {
+    "episode_id": "2026-04-09-daily",
+    "title": "CGT Daily News - April 09, 2026",
+    "description": "Today's CGT news highlights:\n- David Sinclair startup Life Biosciences raises $80M for clinical test of anti-aging gene therapy\n- Astellas unearths Dyno muscle disorder AAV capsid with $15M option agreement\n- Biogen links up with Alloy platform to boost ASO drug development",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-09-daily/2026-04-09-daily.mp3",
+    "file_size": 3392973,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-09T08:24:53.003561+00:00"
   }
 ]

@@ -9,6 +9,18 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - April 13, 2026</title>
+      <description>Today's CGT news highlights:
+- FDA rejects Replimune cancer therapy, saying company didn't resolve trial doubts
+- China biotech’s CRISPR therapy suggests US drugmakers will face competition
+- Vivatides gets $54M; Wegovy drops cold chain in EU; Gilead takes Kymera option
+- FDA rejects Replimune’s melanoma prospect for second time
+- China-based CAR-T company Oricell raises $40M more as it looks to go public</description>
+      <guid isPermaLink="false">2026-04-13-daily</guid>
+      <pubDate>Mon, 13 Apr 2026 09:04:49 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-13-daily/2026-04-13-daily.mp3" length="2608653" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Weekly Digest - Week 15, 2026</title>
       <description>Today's CGT news highlights:
 - In a first, a CAR-T cell therapy drives 3 autoimmune diseases into remission in a single patient

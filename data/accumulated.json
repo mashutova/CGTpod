@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "c640666196526ff7",
+    "title": "Allogene\u2019s first cut of data on \u2018off-the-shelf\u2019 CAR-T shows promise",
+    "url": "https://endpoints.news/allogenes-first-cut-of-data-on-off-the-shelf-car-t-shows-promise/",
+    "summary": "Allogene Therapeutics\u2019 CAR-T therapy removed all remaining detectable lymphoma cells in just over half of treated patients, according to an early look at the Phase 2 data. The Bay Area biotech ...",
+    "source": "endpoints_news",
+    "published_date": "2026-04-13T15:25:50+00:00",
+    "fetched_date": "2026-04-14T08:26:54.235811",
+    "is_cgt_relevant": true,
+    "cgt_reason": "Allogene off-the-shelf CAR-T Phase 2 data",
+    "cgt_confidence": 0.99
+  },
+  {
+    "id": "93802129f4cd22df",
+    "title": "Allogene\u2019s off-the-shelf CAR-T erases lingering lymphoma cells in early slice of data",
+    "url": "https://www.fiercebiotech.com/biotech/allogenes-shelf-car-t-erases-lingering-lymphoma-cells-key-early-win",
+    "summary": "Cema-cel eradicated minimal residual disease in seven of 12 patients, compared to two of 12 participants in the observational control arm.",
+    "source": "fierce_biotech",
+    "published_date": "2026-04-12T20:53:00+00:00",
+    "fetched_date": "2026-04-14T08:26:54.354089",
+    "is_cgt_relevant": true,
+    "cgt_reason": "Allogene off-the-shelf CAR-T lymphoma data",
+    "cgt_confidence": 0.99
+  }
+]

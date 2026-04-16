@@ -142,5 +142,14 @@
     "file_size": 2608653,
     "duration_seconds": 0,
     "pub_date": "2026-04-13T09:04:49.990508+00:00"
+  },
+  {
+    "episode_id": "2026-04-16-daily",
+    "title": "CGT Daily News - April 16, 2026",
+    "description": "Today's CGT news highlights:\n- In vivo autoimmune CAR-T race grows as two RNA startups enter the clinic\n- FDA official confirms plausible mechanism principles not exclusive to bespoke gene therapies\n- Replimune looks ahead as repeat CRL speeds the company's decline\n- Revolution Medicines leads latest wave of stock offerings, totaling $1.5B\n- Parker Institute doubles down on cancer vaccines as part of ongoing reboot\n- Cell therapy biotech Obsidian leverages Galera reverse merger to go public\n- Astellas to close stem cell unit\u2019s Seattle site, with layoffs incoming\n- FDA narrows in on search for new biologics and vaccines leader\n- Fierce Biotech Layoff Tracker 2026: Astellas shutters cell therapy site; Replimune reduces staff",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-16-daily/2026-04-16-daily.mp3",
+    "file_size": 3490989,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-16T08:31:42.689869+00:00"
   }
 ]

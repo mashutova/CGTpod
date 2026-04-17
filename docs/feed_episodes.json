@@ -151,5 +151,14 @@
     "file_size": 3490989,
     "duration_seconds": 0,
     "pub_date": "2026-04-16T08:31:42.689869+00:00"
+  },
+  {
+    "episode_id": "2026-04-17-daily",
+    "title": "CGT Daily News - April 17, 2026",
+    "description": "Today's CGT news highlights:\n- Roche to start a new Phase 3 trial for Elevidys\n- MeiraGTx buys back gene therapy from J&J; Storm brings in $56M Series C\n- MSF says Gilead's lenacapavir supply 'not nearly enough'; PolyPeptide\u2019s strategic review\n- Johnson & Johnson hands back failed eye disease gene therapy to MeiraGTx\n- Eying 3 approvals in 2 years, Ocugen\u2019s CEO wants to bring gene therapy to the masses",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-17-daily/2026-04-17-daily.mp3",
+    "file_size": 3068877,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-17T08:31:13.334873+00:00"
   }
 ]

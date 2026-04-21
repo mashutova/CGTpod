@@ -9,6 +9,17 @@
     <ns0:explicit>false</ns0:explicit>
     <ns0:category text="Science"/>
     <item>
+      <title>CGT Daily News - April 21, 2026</title>
+      <description>Today's CGT news highlights:
+- Replimmune ramps up layoffs to cover 60% of workforce amid ongoing fallout of FDA rejection
+- Kelonia investor Venrock will clear a 45-fold return on startup's sale to Lilly
+- Lilly to buy Kelonia for $3.25B upfront, underlining its in vivo CAR-T strategy
+- Lilly picks up another in vivo CAR-T company with Kelonia buyout worth up to $7B</description>
+      <guid isPermaLink="false">2026-04-21-daily</guid>
+      <pubDate>Tue, 21 Apr 2026 08:57:02 +0000</pubDate>
+      <enclosure url="https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-21-daily/2026-04-21-daily.mp3" length="3359181" type="audio/mpeg"/>
+    </item>
+    <item>
       <title>CGT Daily News - April 20, 2026</title>
       <description>Today's CGT news highlights:
 - UCB plots epilepsy expansion with $650M Neurona cell therapy acquisition

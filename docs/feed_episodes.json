@@ -178,5 +178,14 @@
     "file_size": 3359181,
     "duration_seconds": 0,
     "pub_date": "2026-04-21T08:57:02.071570+00:00"
+  },
+  {
+    "episode_id": "2026-04-23-daily",
+    "title": "CGT Daily News - April 23, 2026",
+    "description": "Today's CGT news highlights:\n- Carvykti shows promise before multiple myeloma; two megarounds; AstraZeneca wins twice\n- Racing toward first FDA nod for autoimmune CAR-T, Kyverna bolsters lead with full SPS dataset\n- Flagship\u2019s latest startup aims to solve gene therapy\u2019s thorniest technical challenge\n- Ray Therapeutics shines a light on $125M round targeting genetic eye therapy\n- With $50M from Flagship Pioneering, Serif strives to write new chapter for DNA medicines",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-23-daily/2026-04-23-daily.mp3",
+    "file_size": 3208557,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-23T08:57:11.438912+00:00"
   }
 ]

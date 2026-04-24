@@ -187,5 +187,14 @@
     "file_size": 3208557,
     "duration_seconds": 0,
     "pub_date": "2026-04-23T08:57:11.438912+00:00"
+  },
+  {
+    "episode_id": "2026-W17-weekly",
+    "title": "CGT Weekly Digest - Week 17, 2026",
+    "description": "Today's CGT news highlights:\n- FDA approves Regeneron's hearing loss gene therapy Otarmeni\n- Regeneron ushers in new genetic medicine era with groundbreaking gene therapy approval\n- Endpoints wins Neal Awards for Trump and gene editing coverage, JPM event",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-W17-weekly/2026-W17-weekly.mp3",
+    "file_size": 3231789,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-24T09:05:42.576681+00:00"
   }
 ]

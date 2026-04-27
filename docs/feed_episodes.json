@@ -196,5 +196,14 @@
     "file_size": 3231789,
     "duration_seconds": 0,
     "pub_date": "2026-04-24T09:05:42.576681+00:00"
+  },
+  {
+    "episode_id": "2026-04-27-daily",
+    "title": "CGT Daily News - April 27, 2026",
+    "description": "Today's CGT news highlights:\n- Sanofi\u2019s immunology reckoning; Lilly acquires in vivo CAR-T biotech; RevMed\u2019s \u2018Herceptin moment\u2019; and more\n- Exclusive: UC Berkeley startup bets on jumping genes for GLP-1 gene therapy\n- After Lilly\u2019s $7B Kelonia deal, are there any in vivo CAR-T biotechs left to buy?",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-27-daily/2026-04-27-daily.mp3",
+    "file_size": 3215949,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-27T09:20:49.225685+00:00"
   }
 ]

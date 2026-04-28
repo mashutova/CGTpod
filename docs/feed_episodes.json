@@ -205,5 +205,14 @@
     "file_size": 3215949,
     "duration_seconds": 0,
     "pub_date": "2026-04-27T09:20:49.225685+00:00"
+  },
+  {
+    "episode_id": "2026-04-28-daily",
+    "title": "CGT Daily News - April 28, 2026",
+    "description": "Today's CGT news highlights:\n- Novartis CEO \u2018continuing to evaluate\u2019 in vivo CAR-Ts, but no deals in the works\n- Q&A: Intellia CEO talks first Phase 3 CRISPR readout and what\u2019s next\n- Intellia's in vivo CRISPR therapy first to succeed in Phase 3\n- Astellas thins early pipeline, swaps out struggling rare disease gene therapy\n- Intellia races in vivo CRISPR therapy to FDA after phase 3 data paint \u2018compelling\u2019 picture",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-28-daily/2026-04-28-daily.mp3",
+    "file_size": 3085677,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-28T09:25:22.816185+00:00"
   }
 ]

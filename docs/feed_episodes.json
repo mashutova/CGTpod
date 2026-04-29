@@ -214,5 +214,14 @@
     "file_size": 3085677,
     "duration_seconds": 0,
     "pub_date": "2026-04-28T09:25:22.816185+00:00"
+  },
+  {
+    "episode_id": "2026-04-29-daily",
+    "title": "CGT Daily News - April 29, 2026",
+    "description": "Today's CGT news highlights:\n- Rocket's PRV goes for $180M; Oruka targets $500M offering\n- Lilly strikes second partnership this year for recombinase-based gene editing\n- Lilly pens $2.2B pact with Bezos-backed Profluent to work on recombinase-based gene editing",
+    "audio_url": "https://github.com/mashutova/CGTpod/releases/download/episode-2026-04-29-daily/2026-04-29-daily.mp3",
+    "file_size": 3558861,
+    "duration_seconds": 0,
+    "pub_date": "2026-04-29T09:12:54.609746+00:00"
   }
 ]

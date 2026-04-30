@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": "27d2f0893e3534c6",
+    "title": "GSK walks away from $100M bet on Mersana's STING ADC, pauses mRNA bird flu shot program",
+    "url": "https://www.fiercebiotech.com/biotech/gsk-walks-away-100m-bet-mersana-sting-adc-pauses-mrna-bird-flu-shot",
+    "summary": "GSK has finally called time on its pact with Mersana Therapeutics despite sinking $100 million to secure an option for an antibody-drug conjugate (ADC).",
+    "source": "fierce_biotech",
+    "published_date": "2026-04-29T06:17:00+00:00",
+    "fetched_date": "2026-04-30T09:11:33.451736",
+    "is_cgt_relevant": true,
+    "cgt_reason": "mRNA bird flu vaccine program mentioned.",
+    "cgt_confidence": 0.6
+  }
+]

@@ -10,5 +10,29 @@
     "is_cgt_relevant": true,
     "cgt_reason": "mRNA bird flu vaccine program mentioned.",
     "cgt_confidence": 0.6
+  },
+  {
+    "id": "398cc8b6839a1e49",
+    "title": "Wave aims for monthly dosing with RNA editing treatment for AATD",
+    "url": "https://endpoints.news/wave-aims-for-monthly-dosing-with-rna-editing-treatment-for-aatd/",
+    "summary": "Wave Life Sciences reported an updated cut of data from its early-stage study of an RNA editing treatment for alpha-1 antitrypsin deficiency, suggesting it can dose its genetic therapy monthly. People ...",
+    "source": "endpoints_news",
+    "published_date": "2026-05-19T15:19:59+00:00",
+    "fetched_date": "2026-05-20T10:25:04.024585",
+    "is_cgt_relevant": true,
+    "cgt_reason": "RNA editing therapy for genetic disease AATD.",
+    "cgt_confidence": 0.95
+  },
+  {
+    "id": "c80caa425e4e70dd",
+    "title": "Candel reports prostate cancer drug's long-term data ahead of FDA filing",
+    "url": "https://endpoints.news/candel-reports-prostate-cancer-drugs-long-term-data-ahead-of-fda-filing/",
+    "summary": "Candel Therapeutics produced long-term follow-up data that may bolster the case for its prostate cancer drug that's heading to the FDA for marketing approval later this year. The company followed up with patients 20 months ...",
+    "source": "endpoints_news",
+    "published_date": "2026-05-15T15:30:00+00:00",
+    "fetched_date": "2026-05-20T10:25:04.024924",
+    "is_cgt_relevant": true,
+    "cgt_reason": "Candel Therapeutics develops oncolytic viral therapies for cancer.",
+    "cgt_confidence": 0.8
   }
 ]

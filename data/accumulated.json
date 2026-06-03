@@ -34,5 +34,17 @@
     "is_cgt_relevant": true,
     "cgt_reason": "Candel Therapeutics develops oncolytic viral therapies for cancer.",
     "cgt_confidence": 0.8
+  },
+  {
+    "id": "2ab6743adaecf634",
+    "title": "Ascidian, Lilly ink RNA exon editing pact worth up to $1.9B for genetic kidney diseases",
+    "url": "https://www.fiercebiotech.com/biotech/ascidian-lilly-lock-19b-renal-disease-research-collaboration",
+    "summary": "Ascidian Therapeutics and Eli Lilly have signed a research collaboration potentially worth up to $1.9 billion, giving the Big Pharma company the chance to discover and develop RNA exon editing therapeutics for genetic kidney diseases.",
+    "source": "fierce_biotech",
+    "published_date": "2026-06-02T14:50:00+00:00",
+    "fetched_date": "2026-06-03T11:56:58.703327",
+    "is_cgt_relevant": true,
+    "cgt_reason": "RNA exon editing therapeutics for genetic diseases",
+    "cgt_confidence": 0.85
   }
 ]

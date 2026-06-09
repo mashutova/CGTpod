@@ -46,5 +46,17 @@
     "is_cgt_relevant": true,
     "cgt_reason": "RNA exon editing therapeutics for genetic diseases",
     "cgt_confidence": 0.85
+  },
+  {
+    "id": "099124220a941cab",
+    "title": "City aims to lay foundation for RNAi renaissance with nearly $100M series B",
+    "url": "https://www.fiercebiotech.com/biotech/city-lay-foundation-rnai-renaissance-nearly-100m-series-b",
+    "summary": "Looking to spark an antibody-like revolution for RNA interference medicines, City Therapeutics has landed a nearly $100 million series B to fund a clinical push and power further development of its foundational platform.",
+    "source": "fierce_biotech",
+    "published_date": "2026-06-08T15:33:00+00:00",
+    "fetched_date": "2026-06-09T10:35:14.018828",
+    "is_cgt_relevant": true,
+    "cgt_reason": "RNAi therapeutics platform funding",
+    "cgt_confidence": 0.85
   }
 ]

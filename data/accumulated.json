@@ -58,5 +58,29 @@
     "is_cgt_relevant": true,
     "cgt_reason": "RNAi therapeutics platform funding",
     "cgt_confidence": 0.85
+  },
+  {
+    "id": "099124220a941cab",
+    "title": "City aims to lay foundation for RNAi renaissance with nearly $100M series B",
+    "url": "https://www.fiercebiotech.com/biotech/city-lay-foundation-rnai-renaissance-nearly-100m-series-b",
+    "summary": "Looking to spark an antibody-like revolution for RNA interference medicines, City Therapeutics has landed a nearly $100 million series B to fund a clinical push and power further development of its foundational platform.",
+    "source": "fierce_biotech",
+    "published_date": "2026-06-08T15:33:00+00:00",
+    "fetched_date": "2026-06-10T10:56:25.816892",
+    "is_cgt_relevant": true,
+    "cgt_reason": "RNAi therapeutics platform funding round",
+    "cgt_confidence": 0.9
+  },
+  {
+    "id": "819a3efe5da7f031",
+    "title": "Could engaging the immune system improve AML outcomes?",
+    "url": "https://www.fiercebiotech.com/sponsored/could-engaging-immune-system-be-key-unlocking-durable-responses-aml",
+    "summary": "With unmet need still high in AML, new approaches are exploring whether engaging immune responses could help improve long-term disease control.",
+    "source": "fierce_biotech",
+    "published_date": "2026-05-28T13:19:00+00:00",
+    "fetched_date": "2026-06-10T10:56:25.817615",
+    "is_cgt_relevant": true,
+    "cgt_reason": "AML immune engagement may involve CGT approaches",
+    "cgt_confidence": 0.55
   }
 ]

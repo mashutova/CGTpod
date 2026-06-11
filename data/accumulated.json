@@ -82,5 +82,29 @@
     "is_cgt_relevant": true,
     "cgt_reason": "AML immune engagement may involve CGT approaches",
     "cgt_confidence": 0.55
+  },
+  {
+    "id": "485a5c1b9a854a1d",
+    "title": "Big Pharma-backed SonoThera sounds off with $125M series B for bubble-based genetic delivery",
+    "url": "https://www.fiercebiotech.com/biotech/big-pharma-backed-sonothera-sounds-125m-series-b-bubble-based-genetic-delivery",
+    "summary": "Bay Area biotech SonoThera is bubbling to a clinical boil after raising a $125 million series B with the backing of some of the biggest names in pharma.",
+    "source": "fierce_biotech",
+    "published_date": "2026-06-10T10:36:00+00:00",
+    "fetched_date": "2026-06-11T11:22:35.447391",
+    "is_cgt_relevant": true,
+    "cgt_reason": "Bubble-based genetic delivery platform, gene therapy adjacent",
+    "cgt_confidence": 0.85
+  },
+  {
+    "id": "099124220a941cab",
+    "title": "City aims to lay foundation for RNAi renaissance with nearly $100M series B",
+    "url": "https://www.fiercebiotech.com/biotech/city-lay-foundation-rnai-renaissance-nearly-100m-series-b",
+    "summary": "Looking to spark an antibody-like revolution for RNA interference medicines, City Therapeutics has landed a nearly $100 million series B to fund a clinical push and power further development of its foundational platform.",
+    "source": "fierce_biotech",
+    "published_date": "2026-06-08T15:33:00+00:00",
+    "fetched_date": "2026-06-11T11:22:35.448545",
+    "is_cgt_relevant": true,
+    "cgt_reason": "RNAi therapeutics platform funding, RNA therapeutics",
+    "cgt_confidence": 0.88
   }
 ]

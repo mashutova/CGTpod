@@ -1,11 +1,12 @@
 name: CGT Podcast Pipeline
 
 on:
-  schedule:
-    # Daily Mon-Fri at 07:00 UTC
-    - cron: '0 7 * * 1-5'
-    # Weekly Friday digest at 09:00 UTC (after daily)
-    - cron: '0 9 * * 5'
+  # Scheduled runs disabled — pipeline is manual-only via workflow_dispatch.
+  # schedule:
+  #   # Daily Mon-Fri at 07:00 UTC
+  #   - cron: '0 7 * * 1-5'
+  #   # Weekly Friday digest at 09:00 UTC (after daily)
+  #   - cron: '0 9 * * 5'
   workflow_dispatch:
     inputs:
       mode:
